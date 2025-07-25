@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8adae1465d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="ChatGPT_Image_Jul_24__2025__02_43_19_PM-removebg-preview.png" style="height: 80px;" alt="" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Servce</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="headerText">
+                <p>Computer Science Engineer</p>
+                <h1>Hi, I'm <span style="color: rgb(252, 0, 143);">Aakash</span><br> from New Delhi</h1>
+            </div>
+        </div>
+    </div>
+<!-- ------------------about----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                 <div class="about-col-1">
+                    <img src="about.jpeg" alt="" style="width: 100%;; margin-left: 10%; border-radius: 15px;">
+                 </div>
+                 <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="width: 710px;">Hi, I'm Aakash Kumar, a passionate Computer Science Engineer with a strong foundation in software development and emerging technologies.
+I began my academic journey with a Diploma in Mechanical Engineering, which helped me develop analytical and problem-solving skills early on.
+Later, I pursued B.Tech in Computer Science, where I explored programming, data structures, and real-world applications.
+I completed a 3-month internship in IoT at Samsung, where I worked with technologies like ESP32, Raspberry Pi, and sensor networks.
+During the internship, I contributed to a forest fire detection system, using cloud connectivity and real-time monitoring.
+This experience sparked my interest in smart systems and embedded technology.
+I am skilled in C++, Java, HTML, CSS, JavaScript, and SQL, and comfortable using tools like Git, GitHub, and VS Code.
+I enjoy solving complex problems, working collaboratively, and continuously learning new technologies.
+My diverse background allows me to bridge the gap between hardware and software effectively.
+I’m now looking forward to contributing to innovative tech projects and growing as a developer.</p>
+                    <div class="tab-title active-link">
+                       <p class="tab-links" onclick="openttab('Skills',this)">Skills</p>
+                       <p class="tab-links"onclick="openttab('Internship',this)">Internship</p>
+                       <p class="tab-links"onclick="openttab('Education',this)">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="Skills">
+                        <ul>
+                            <li><span>Technical Skills <br></span> CPP, HTML5, CSS3, Javascript, Java, Sql.</li>
+                            <li><span> Soft Skills <br>
+                            </span> Problem-Solving, Analytical thinking, Collaborative, Taking Initiative, Flexibility to Change.</li>
+                            <li><span> Developers Tools <br></span>GitHub, Git, VS Code, Jupyter Notebook.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Internship">
+                        <ul>
+                            <li><span>IOT(Samsung)<br></span>Connectivity, Sensors, ESP32, Raspberry Pi </li>
+                            <li>Project:Forest fire detection:-promising solution for early forest fire detection, leveraging sensor networks and cloud connectivity to monitor environmental conditions and alert authorities to potential fires.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>B.Tech <br></span>Computer Science Engineering</li>
+                            <li><span>Dimploma<br></span>Mechanical Engineerring.</li>
+                            
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------Services----------------------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h1>Web Developer</h1>
+                    <p>I have a solid foundation in web development, with hands-on experience in HTML, CSS, and JavaScript to build responsive and interactive websites. I've developed projects like a Tic Tac Toe game and an astrology prediction app, showcasing my ability to create user-friendly interfaces and implement core logic. I’m familiar with modern web design principles, including responsive layouts and clean UI/UX practices. I understand how to work with the DOM, apply event handling, and use CSS transitions for interactive effects. I'm continually improving my skills by building real-world projects and exploring new tools.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h1>IOT(Internet of Things)</h1>
+                    <p>I have a good understanding of IoT concepts and have worked on projects involving sensor data collection, microcontrollers (like Arduino or ESP32), and real-time monitoring. I can program devices using C/C++ or MicroPython, and interface with components like temperature sensors, motion detectors, and Wi-Fi modules. My skills include building basic IoT systems that send data to the cloud or display it on dashboards. I understand serial communication, data logging, and working with platforms like ThingSpeak or Blynk. I'm actively exploring how to integrate IoT with web technologies for smarter applications.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <!-- <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h1>App Developer</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quis eius non aut molestiae asperiores odit adipisci tenetur! Velit commodi quo sed ducimus tempora? Animi commodi sit temporibus laborum impedit!</p>
+                    <a href="#">learn more</a>
+                </div> -->
+            </div>
+        </div>
+     </div>
+     <!-- ---------------portfolio-------------------- -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <a href="https://monumental-medovik-579377.netlify.app/" target="_blank"><img src="Screenshot 2025-07-24 202640.png" alt="" style="width: 400px;" ></a>
+                    <p>A simple browser-based Tic Tac Toe game built using HTML, CSS, and JavaScript. The game allows two players to take turns and play on a 3x3 grid. It includes game logic to detect wins, draws, and allows restarting the game. The UI is responsive and user-friendly.</p>
+                    
+                </div>
+                <div class="work">
+                    <a href="https://courageous-pony-b89463.netlify.app/" target="_blank"><img src="Screenshot 2025-07-24 202734.png" alt="" style="width: 400px;" ></a>
+                    <p>A web-based astrology app that takes the user's name, surname, and date of birth to calculate their zodiac sign and provide a basic future prediction. Built using HTML for structure, CSS for styling, and JavaScript for logic, the app offers an interactive and engaging user experience.</p>
+                </div>
+                <div class="work">
+                    
+                    <a href="https://monumental-medovik-579377.netlify.app/" target="_blank"><img src="Screenshot 2025-07-24 202640.png" alt="" style="width: 400px;" ></a>
+                    <p>A simple browser-based Tic Tac Toe game built using HTML, CSS, and JavaScript. The game allows two players to take turns and play on a 3x3 grid. It includes game logic to detect wins, draws, and allows restarting the game. The UI is responsive and user-friendly.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- ------------------------------contact----------------------------- -->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> aakashkrs001@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9910590360</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/aakash-kumar2001/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/aakashkrs" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1PjeGZQIvFB8kD42MdIOt4_vyETU7KKRh/view?usp=drive_link" class="btn" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>© 2025 Aakash Sharma. All rights reserved. This portfolio was created for showcasing personal web development and IoT projects.</p>
+    </div>
+       
+
+    <script>
+        var tablinks=document.getElementsByClassName('tab-links')
+        var tabcontent=document.getElementsByClassName('tab-content')
+
+        var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-content');
+
+    function openttab(tabname, element) {
+        // Remove active classes from all tab links
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        // Hide all tab contents
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        // Activate the clicked tab and show its content
+        element.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+        
+    </script>
+
+</body>
+</html>
+<!-- https://monumental-medovik-579377.netlify.app/ -->
+ <!-- https://courageous-pony-b89463.netlify.app/ -->
